@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+        }
+        .main{
+            width: 4px;
+            height: 4px;
+            /* background-color: aqua; */
+            border-radius: 50%;
+            border-top: 11px solid red;
+            border-bottom: 11px solid blue;
+            border-left: 11px solid black;
+            border-right: 11px solid black;
+            animation: animation;
+            animation-duration: 1s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+           
+        }
+        @keyframes animation{
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+        .slider{
+            border: 2px solid black;
+            width: 80%;
+            height: 600px;
+            margin: auto;
+            background-image: url(box1_image.jpg);
+            background-image: url(box2_image.jpg);
+            background-image: url(box3_image.jpg);
+            background-image: url(box4_image.jpg);
+            background-repeat: no-repeat;
+           
+            background-size: cover;
+            
+        }
+        
+    </style>
+</head>
+<body>
+  <div class="main">
+
+  </div>
+
+  <div class="slider">
+
+  </div>
+
+
+    <script>
+        function myFunction(){
+            alert("aap kya chahte ho");
+        }
+    </script>
+</body>
+</html>
